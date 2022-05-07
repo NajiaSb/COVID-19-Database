@@ -27,6 +27,6 @@
 
 ### Complex Queries
 - A description of each query in queries.sql is given in comments above each query. The queries are in no particular order. We consider queries 1-7 all to be non-trivial, however the following three may stand out as the most complex (in no particular order):
-    - :**QUERY 3::** Involves user input, joins, grouping, and ordering to output the number of individuals of a given age group who have received their ﬁrst and second dose of the vaccine. This gives a good overview of the vaccination data for each province.
-    - :**QUERY 5::** Displays the percent change in COVID cases between months. As noted by the comment above the query, it is interesting to note that there was a staggering 500% increase in cases between the months of Novemeber and December, 2021. This corresponds with the ﬁrst reported case of the Omicron variant in Canada on November 28th.
-    - :**QUERY 7::** Involves user input to identify the smallest value each month in a column speciﬁed by the user. This can be used to identify outlier values in a speciﬁed column.
+    - **QUERY 3:** Involves user input, joins, grouping, and ordering to output the number of individuals of a given age group who have received their ﬁrst and second dose of the vaccine. This gives a good overview of the vaccination data for each province.
+    - **QUERY 5:** Displays the percent change in COVID cases between months. As noted by the comment above the query, it is interesting to note that there was a staggering 500% increase in cases between the months of Novemeber and December, 2021. This corresponds with the ﬁrst reported case of the Omicron variant in Canada on November 28th.
+    - **QUERY 7:** Involves user input to identify the smallest value each month in a column speciﬁed by the user. This can be used to identify outlier values in a speciﬁed column.
