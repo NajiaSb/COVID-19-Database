@@ -1,0 +1,703 @@
+Script started on 2022-04-11 14:54:25-04:00 [TERM="xterm-256color" TTY="/dev/pts/22" COLUMNS="136" LINES="32"]
+[?2004h]0;shinnee@charlie: ~/Desktop[01;32mshinnee@charlie[00m:[01;34m~/Desktop[00m$ sqlplus
+[?2004l
+SQL*Plus: Release 12.1.0.2.0 Production on Mon Apr 11 14:54:30 2022
+
+Copyright (c) 1982, 2014, Oracle.  All rights reserved.
+
+Enter user-name: [KEnter user-name: [K[?2004hEnter user-name: Noo[K[K[Kshinnee[?2004l[Kshinnee
+Enter password: [KEnter password: [K[?2004h[KEnter password: [17G[17G[KEnter password: *[18G[18G[KEnter password: **[19G[19G[KEnter password: ***[20G[20G[KEnter password: ****[21G[21G[KEnter password: *****[22G[22G[KEnter password: ******[23G[23G[KEnter password: *******[24G[24G[KEnter password: ********[25G[25G[KEnter password: *********[26G[26G[KEnter password: **********[27G[27G[KEnter password: ***********[28G[28G[KEnter password: ************[29G[29G[KEnter password: *************[30G[30G[KEnter password: **************[31G[31G[KEnter password: ***************[32G[32G[17G[?2004l[KEnter password: [17G
+[K
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+
+SQL> [KSQL> [K[?2004hSQL> @@ queries.sql[C[C[C[C[C[?2004l[K@@ queries.sql
+(Press enter to continue) Insert January 2022 data into the database:
+[K[K[?2004h[?2004l
+SQL> --------------------------------------------------------------------------------
+SQL> -- NEW INSERTIONS: Data added to CasesByProvince Table for January 2022
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '01-Jan-2022', 112486, 652114, 10206, 774806, 1314, 214, 200, 14, 112);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '02-Jan-2022', 123282, 658015, 10223, 791520, 1117, 224, 212, 12, 114);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '03-Jan-2022', 130307, 664562, 10229, 805098, 1232, 248, 235, 13, 125);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '04-Jan-2022', 134130, 672081, 10239, 816450, 1290, 266, 254, 12, 128);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '05-Jan-2022', 134030, 683750, 10252, 828032, 2081, 288, 276, 12, 138);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '06-Jan-2022', 135313, 695786, 10272, 841371, 2279, 319, 307, 12, 164);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '07-Jan-2022', 135223, 707732, 10315, 853270, 2472, 338, 324, 14, 177);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '08-Jan-2022', 136548, 719739, 10345, 866632, 2594, 385, 372, 13, 219);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '09-Jan-2022', 137822, 730403, 10366, 878591, 2419, 412, 397, 15, 226);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '10-Jan-2022', 140523, 737396, 10378, 888297, 2467, 438, 423, 15, 234);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '11-Jan-2022', 138560, 747289, 10399, 896248, 3220, 477, 459, 18, 250);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '12-Jan-2022', 132188, 763398, 10445, 906031, 3448, 505, 486, 19, 265);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '13-Jan-2022', 122246, 783214, 10480, 915940, 3630, 500, 481, 19, 275);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '14-Jan-2022', 111496, 804886, 10522, 926904, 3814, 527, 511, 16, 288);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '15-Jan-2022', 99315, 827756, 10565, 937636, 3957, 558, 544, 14, 319);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '16-Jan-2022', 94408, 843073, 10605, 948086, 3595, 579, 563, 16, 340);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '17-Jan-2022', 94614, 851365, 10628, 956607, 3887, 578, 565, 13, 343);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '18-Jan-2022', 91473, 861554, 10666, 963693, 4183, 580, 568, 12, 337);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '19-Jan-2022', 84266, 874445, 10726, 969437, 4132, 589, 577, 12, 341);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '20-Jan-2022', 79370, 887023, 10801, 977194, 4061, 594, 577, 17, 347);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '21-Jan-2022', 74905, 898589, 10865, 984359, 4114, 590, 573, 17, 366);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '22-Jan-2022', 71387, 908533, 10912, 990832, 4026, 600, 576, 24, 378);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '23-Jan-2022', 67674, 918023, 10968, 996665, 3797, 604, 579, 25, 375);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '24-Jan-2022', 65504, 924947, 11004, 1001455, 3861, 615, 586, 29, 372);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '25-Jan-2022', 61566, 932245, 11068, 1004879, 4008, 626, 594, 32, 380);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '26-Jan-2022', 56929, 942158, 11160, 1010247, 4016, 608, 577, 31, 367);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '27-Jan-2022', 54074, 950795, 11230, 1016099, 3645, 599, 566, 33, 366);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '28-Jan-2022', 51437, 958701, 11298, 1021436, 3535, 607, 577, 30, 387);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '29-Jan-2022', 49551, 965386, 11354, 1026291, 3439, 597, 563, 34, 386);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '30-Jan-2022', 46950, 971889, 11412, 1030251, 3019, 587, 555, 32, 358);
+
+1 row created.
+
+SQL> INSERT INTO CasesByProvince VALUES ('ON', '31-Jan-2022', 44863, 976987, 11444, 1033294, 2983, 583, 555, 28, 347);
+
+1 row created.
+
+SQL> 
+SQL> 
+SQL> SET echo OFF
+Press enter to continue to QUERY 1...
+[K[K[?2004h[?2004l
+SQL> --------------------------------------------------------------------------------
+SQL> -- QUERY 1: Get the average number of hospitalizations in each province for each
+SQL> -- month and order the results by province and date.
+SQL> SELECT P.provinceName,
+  2  	    EXTRACT(YEAR FROM C.reportedDate) AS "year",
+  3  	    EXTRACT(MONTH FROM C.reportedDate) AS "month",
+  4  	    ROUND(AVG(C.hospitalizedPatients), 0) AS "avgHospitalized"
+  5  FROM CasesByProvince C
+  6  JOIN Province P ON P.provinceCode = C.ProvinceCode
+  7  GROUP BY P.provinceName,
+  8  	      EXTRACT(YEAR FROM C.reportedDate),
+  9  	      EXTRACT(MONTH FROM C.reportedDate)
+ 10  ORDER BY P.provinceName,
+ 11  	      EXTRACT(YEAR FROM C.reportedDate),
+ 12  	      EXTRACT(MONTH FROM C.reportedDate);
+
+PROVINCENAME						 year	   month avgHospitalized
+-------------------------------------------------- ---------- ---------- ---------------
+Ontario 						 2021	       1	    1440
+Ontario 						 2021	       2	     826
+Ontario 						 2021	       3	     765
+Ontario 						 2021	       4	    1800
+Ontario 						 2021	       5	    1465
+Ontario 						 2021	       6	     432
+Ontario 						 2021	       7	     149
+Ontario 						 2021	       8	     171
+Ontario 						 2021	       9	     310
+Ontario 						 2021	      10	     219
+Ontario 						 2021	      11	     215
+
+PROVINCENAME						 year	   month avgHospitalized
+-------------------------------------------------- ---------- ---------- ---------------
+Ontario 						 2021	      12	     399
+Ontario 						 2022	       1	    3150
+
+13 rows selected.
+
+SQL> 
+SQL> 
+SQL> SET echo OFF
+Press enter to continue to QUERY 2...
+[K[K[?2004h[?2004l
+SQL> --------------------------------------------------------------------------------
+SQL> -- QUERY 2: Get the average ratio of ICU ventilators in use to total
+SQL> -- hospitalizations for each month in each health region. Order the results by
+SQL> -- province, date, and health region.
+SQL> SELECT P.provinceName,
+  2  	    EXTRACT(YEAR FROM H.reportedDate) AS "year",
+  3  	    EXTRACT(MONTH FROM H.reportedDate) AS "month",
+  4  	    H.regionName,
+  5  	    ROUND(AVG(H.icuCurrentVented), 0) AS "vented",
+  6  	    ROUND(AVG(H.hospitalizations), 0) AS "hospitalizations",
+  7  	    ROUND(AVG(H.icuCurrentVented) / AVG(H.hospitalizations) * 100, 2) AS "ratio (%)"
+  8  FROM IcuByHealthRegion H
+  9  JOIN Province P ON P.provinceCode = H.ProvinceCode
+ 10  GROUP BY P.provinceName,
+ 11  	      EXTRACT(YEAR FROM H.reportedDate),
+ 12  	      EXTRACT(MONTH FROM H.reportedDate),
+ 13  	      H.regionName
+ 14  ORDER BY P.provinceName,
+ 15  	      EXTRACT(YEAR FROM H.reportedDate),
+ 16  	      EXTRACT(MONTH FROM H.reportedDate),
+ 17  	      H.regionName;
+
+PROVINCENAME						 year	   month REGIONNAME		  vented hospitalizations  ratio (%)
+-------------------------------------------------- ---------- ---------- -------------------- ---------- ---------------- ----------
+Ontario 						 2021	       1 Central		      95	      578      16.42
+Ontario 						 2021	       1 Eastern		      46	      197      23.42
+Ontario 						 2021	       1 Northern		       2	       13      11.82
+Ontario 						 2021	       1 Toronto		      59	      260      22.84
+Ontario 						 2021	       1 Western		      64	      439      14.66
+Ontario 						 2021	       2 Central		      76	      338      22.37
+Ontario 						 2021	       2 Eastern		      45	      125      35.78
+Ontario 						 2021	       2 Northern		       3	       20      15.54
+Ontario 						 2021	       2 Toronto		      40	      147      27.11
+Ontario 						 2021	       2 Western		      45	      218      20.81
+Ontario 						 2021	       3 Central		      73	      296      24.79
+
+PROVINCENAME						 year	   month REGIONNAME		  vented hospitalizations  ratio (%)
+-------------------------------------------------- ---------- ---------- -------------------- ---------- ---------------- ----------
+Ontario 						 2021	       3 Eastern		      38	      131      28.72
+Ontario 						 2021	       3 Northern		       8	       57      13.84
+Ontario 						 2021	       3 Toronto		      35	      117      29.78
+Ontario 						 2021	       3 Western		      41	      183      22.23
+Ontario 						 2021	       4 Central		     123	      739      16.65
+Ontario 						 2021	       4 Eastern		     107	      395	27.1
+Ontario 						 2021	       4 Northern		       8	       42      20.19
+Ontario 						 2021	       4 Toronto		      82	      329      25.01
+Ontario 						 2021	       4 Western		     111	      370	30.1
+Ontario 						 2021	       5 Central		     124	      521      23.84
+Ontario 						 2021	       5 Eastern		      95	      311      30.69
+
+PROVINCENAME						 year	   month REGIONNAME		  vented hospitalizations  ratio (%)
+-------------------------------------------------- ---------- ---------- -------------------- ---------- ---------------- ----------
+Ontario 						 2021	       5 Northern		      11	       37      30.45
+Ontario 						 2021	       5 Toronto		      92	      245      37.47
+Ontario 						 2021	       5 Western		     167	      413      40.45
+Ontario 						 2021	       6 Central		      67	      135      49.44
+Ontario 						 2021	       6 Eastern		      31	       82      37.34
+Ontario 						 2021	       6 Northern		       9	       28      32.43
+Ontario 						 2021	       6 Toronto		      47	       43     108.55
+Ontario 						 2021	       6 Western		      73	      166      43.87
+Ontario 						 2021	       7 Central		      20	       32      62.31
+Ontario 						 2021	       7 Eastern		       6	       25      24.31
+Ontario 						 2021	       7 Northern		       2		4      59.68
+
+PROVINCENAME						 year	   month REGIONNAME		  vented hospitalizations  ratio (%)
+-------------------------------------------------- ---------- ---------- -------------------- ---------- ---------------- ----------
+Ontario 						 2021	       7 Toronto		      22	       12     183.47
+Ontario 						 2021	       7 Western		      38	       89      43.03
+Ontario 						 2021	       8 Central		      14	       65	  21
+Ontario 						 2021	       8 Eastern		       5	       16      28.51
+Ontario 						 2021	       8 Northern		       2		5      38.04
+Ontario 						 2021	       8 Toronto		       9	       16      58.02
+Ontario 						 2021	       8 Western		      31	       90      34.09
+Ontario 						 2021	       9 Central		      30	      120      25.02
+Ontario 						 2021	       9 Eastern		      14	       37      37.41
+Ontario 						 2021	       9 Northern		       2		3      58.43
+Ontario 						 2021	       9 Toronto		      17	       39      43.87
+
+PROVINCENAME						 year	   month REGIONNAME		  vented hospitalizations  ratio (%)
+-------------------------------------------------- ---------- ---------- -------------------- ---------- ---------------- ----------
+Ontario 						 2021	       9 Western		      39	      134      29.11
+Ontario 						 2021	      10 Central		      20	       81      25.11
+Ontario 						 2021	      10 Eastern		      16	       41	40.1
+Ontario 						 2021	      10 Northern		       1		7	9.76
+Ontario 						 2021	      10 Toronto		      13	       21      61.47
+Ontario 						 2021	      10 Western		      29	      103      28.26
+Ontario 						 2021	      11 Central		      16	       58      26.83
+Ontario 						 2021	      11 Eastern		      11	       48	  23
+Ontario 						 2021	      11 Northern		       5	       31      16.21
+Ontario 						 2021	      11 Toronto		       8	       12      68.63
+Ontario 						 2021	      11 Western		      28	      112      25.31
+
+PROVINCENAME						 year	   month REGIONNAME		  vented hospitalizations  ratio (%)
+-------------------------------------------------- ---------- ---------- -------------------- ---------- ---------------- ----------
+Ontario 						 2021	      12 Central		      14	      102	13.8
+Ontario 						 2021	      12 Eastern		      17	       84      20.37
+Ontario 						 2021	      12 Northern		       7	       33      22.88
+Ontario 						 2021	      12 Toronto		       6	       45      14.02
+Ontario 						 2021	      12 Western		      46	      187      24.72
+
+60 rows selected.
+
+SQL> 
+SQL> 
+SQL> SET echo OFF
+Press enter to continue to QUERY 3...
+[K[K[?2004h[?2004l
+SQL> --------------------------------------------------------------------------------
+SQL> -- QUERY 3: Prompt the user to enter an age group. Then, display the total
+SQL> -- number of people in that age group who have received their first and second
+SQL> -- dose of the vaccine, grouped and sorted by region and date.
+SQL> SET echo OFF
+Enter one of the following age groups to display vaccination data for: 18-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80
+ageGroup: [KageGroup: [K[?2004hageGroup: 40-49[?2004l[K40-49
+SQL> SELECT I.regionName,
+  2  	    EXTRACT(YEAR FROM V.reportedDate) AS "year",
+  3  	    EXTRACT(MONTH FROM V.reportedDate) AS "month",
+  4  	    SUM(V.firstDose) AS "total first doses (age=&ageGroup)",
+  5  	    SUM(V.secondDose) AS "total second doses (age=&ageGroup)"
+  6  FROM VaccinationByUnitAndAge V
+  7  JOIN IdHealthUnitByRegion I
+  8  ON V.unitId = I.unitId
+  9  WHERE V.ageGroup = '&ageGroup'
+ 10  GROUP BY EXTRACT(YEAR FROM V.reportedDate),
+ 11  	      EXTRACT(MONTH FROM V.reportedDate),
+ 12  	      I.regionName
+ 13  ORDER BY EXTRACT(YEAR FROM V.reportedDate),
+ 14  	      EXTRACT(MONTH FROM V.reportedDate),
+ 15  	      I.regionName;
+
+REGIONNAME	 year	   month total first doses (age=40-49) total second doses (age=40-49)
+---------- ---------- ---------- ----------------------------- ------------------------------
+Central 	 2021	       7		       2268456			      1941080
+Eastern 	 2021	       7		       1296205			      1083381
+Northern	 2021	       7			741651			       600440
+Toronto 	 2021	       7		       1889775			      1655652
+Western 	 2021	       7		       2649602			      2185011
+Central 	 2021	       8		      11900977			     10784175
+Eastern 	 2021	       8		       6817837			      6101251
+Northern	 2021	       8		       3928065			      3435342
+Toronto 	 2021	       8		       9932041			      9070939
+Western 	 2021	       8		      13972595			     12476827
+Central 	 2021	       9		      11856794			     11115619
+
+REGIONNAME	 year	   month total first doses (age=40-49) total second doses (age=40-49)
+---------- ---------- ---------- ----------------------------- ------------------------------
+Eastern 	 2021	       9		       6844697			      6355599
+Northern	 2021	       9		       3978777			      3627350
+Toronto 	 2021	       9		       9897024			      9283892
+Western 	 2021	       9		      14067337			     13047293
+Central 	 2021	      10		      12595166			     12036557
+Eastern 	 2021	      10		       7312335			      6936240
+Northern	 2021	      10		       4299200			      4023106
+Toronto 	 2021	      10		      10501814			     10019410
+Western 	 2021	      10		      15031423			     14285321
+Central 	 2021	      11		      12387557			     12006625
+Eastern 	 2021	      11		       7194760			      6938939
+
+REGIONNAME	 year	   month total first doses (age=40-49) total second doses (age=40-49)
+---------- ---------- ---------- ----------------------------- ------------------------------
+Northern	 2021	      11		       4248106			      4066362
+Toronto 	 2021	      11		      10318607			      9975331
+Western 	 2021	      11		      14801555			     14301849
+Central 	 2021	      12		      12914998			     12602472
+Eastern 	 2021	      12		       7504008			      7290661
+Northern	 2021	      12		       4444957			      4288720
+Toronto 	 2021	      12		      10762856			     10483528
+Western 	 2021	      12		      15445481			     15041464
+
+30 rows selected.
+
+SQL> 
+SQL> 
+SQL> SET echo OFF
+Press enter to continue to QUERY 4...
+[K[K[?2004h40-49[K[?2004l
+SQL> --------------------------------------------------------------------------------
+SQL> -- QUERY 4: Assume a COVID outbreak occurred due to holiday gatherings. Find how
+SQL> -- many ICU cases each provincial region saw during the last 2 weeks of December
+SQL> -- of 2021 (December 18 – December 31). Order them from most cases to least
+SQL> -- cases.
+SQL> SELECT regionName,
+  2  SUM(icuCurrent)
+  3  FROM IcuByHealthRegion
+  4  WHERE reportedDate BETWEEN '18-Dec-2021' AND '31-Dec-2021'
+  5  GROUP BY regionName
+  6  ORDER BY SUM(icuCurrent) DESC;
+
+REGIONNAME	     SUM(ICUCURRENT)
+-------------------- ---------------
+Western 			1073
+Central 			 438
+Eastern 			 427
+Toronto 			 188
+Northern			 138
+
+SQL> 
+SQL> 
+SQL> SET echo OFF
+Press enter to continue to QUERY 5...
+[K[K[?2004h[?2004l
+SQL> --------------------------------------------------------------------------------
+SQL> -- QUERY 5: The Omicron COVID variant was first reported in Canada November 28,
+SQL> -- 2021. This query finds the percent increase of Ontario COVID cases between
+SQL> -- each month. Use this to observe the drastic change between November and
+SQL> --  December.
+SQL> SELECT
+  2  	 P.provinceName,
+  3  	 EXTRACT(YEAR FROM C.reportedDate) AS "year",
+  4  	 EXTRACT(MONTH FROM C.reportedDate) AS "month",
+  5  	 SUM(C.confirmedPositive) AS "total positive cases",
+  6  	 LAG(SUM(C.confirmedPositive), 1, NULL) OVER (ORDER BY EXTRACT(YEAR FROM C.reportedDate), EXTRACT(MONTH FROM C.reportedDate)) AS "last month total",
+  7  	 (SUM(C.confirmedPositive) - LAG(SUM(C.confirmedPositive), 1, NULL) OVER (ORDER BY EXTRACT(YEAR FROM C.reportedDate), EXTRACT(MONTH FROM C.reportedDate))) AS "difference",
+  8  	 (SUM(C.confirmedPositive) - LAG(SUM(C.confirmedPositive), 1, NULL) OVER (ORDER BY EXTRACT(YEAR FROM C.reportedDate), EXTRACT(MONTH FROM C.reportedDate))) / LAG(SUM(C.confirmedPositive), 1, NULL) OVER (ORDER BY EXTRACT(YEAR FROM C.reportedDate), EXTRACT(MONTH FROM C.reportedDate)) * 100 AS "% increase"
+  9  FROM CasesByProvince C
+ 10  JOIN Province P
+ 11  ON C.provinceCode = P.provinceCode
+ 12  GROUP BY provinceName, EXTRACT(YEAR FROM C.reportedDate), EXTRACT(MONTH FROM C.reportedDate)
+ 13  ORDER BY provinceName, EXTRACT(YEAR FROM C.reportedDate), EXTRACT(MONTH FROM C.reportedDate);
+
+PROVINCENAME						 year	   month total positive cases last month total difference % increase
+-------------------------------------------------- ---------- ---------- -------------------- ---------------- ---------- ----------
+Ontario 						 2021	       1	       796555
+Ontario 						 2021	       2	       355178		796555	  -441377 -55.410737
+Ontario 						 2021	       3	       417311		355178	    62133 17.4934821
+Ontario 						 2021	       4	      1050224		417311	   632913 151.664586
+Ontario 						 2021	       5	       811729	       1050224	  -238495 -22.708965
+Ontario 						 2021	       6	       164496		811729	  -647233 -79.735109
+Ontario 						 2021	       7		49793		164496	  -114703 -69.729963
+Ontario 						 2021	       8	       114957		 49793	    65164 130.869801
+Ontario 						 2021	       9	       179580		114957	    64623 56.2149325
+Ontario 						 2021	      10	       122110		179580	   -57470  -32.00245
+Ontario 						 2021	      11	       142874		122110	    20764 17.0043403
+
+PROVINCENAME						 year	   month total positive cases last month total difference % increase
+-------------------------------------------------- ---------- ---------- -------------------- ---------------- ---------- ----------
+Ontario 						 2021	      12	       857354		142874	   714480 500.076991
+Ontario 						 2022	       1	      3012440		857354	  2155086  251.36478
+
+13 rows selected.
+
+SQL> 
+SQL> 
+SQL> SET echo OFF
+Press enter to continue to QUERY 6...
+[K[K[?2004h[?2004l
+SQL> --------------------------------------------------------------------------------
+SQL> -- QUERY 6: Prompt the user to enter an age group. Get the percentage of people
+SQL> -- who took the first dose and did not take the second dose for each month from
+SQL> -- specified age-group.
+SQL> SET echo OFF
+Enter one of the following age groups to display vaccination data for: 18-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80
+ageGroup: [KageGroup: [K[?2004hageGroup: 50-59[?2004l[K50-59
+SQL> SELECT
+  2  	 I.regionName AS "regionName",
+  3  	 EXTRACT(YEAR FROM V.reportedDate) AS "year",
+  4  	 EXTRACT(MONTH FROM V.reportedDate) AS "month",
+  5  	 ROUND((SUM(V.firstDose) - SUM(V. secondDose)) /SUM(V.firstDose) * 100, 2) AS "percentage (&ageGroup)"
+  6  FROM VaccinationByUnitAndAge V
+  7  JOIN IdHealthUnitByRegion I
+  8  ON V.unitId = I.unitId
+  9  WHERE V.ageGroup = '&ageGroup'
+ 10  GROUP BY
+ 11  	 EXTRACT(YEAR FROM V.reportedDate),
+ 12  	 EXTRACT(MONTH FROM V.reportedDate),
+ 13  	 V.ageGroup,
+ 14  	 I.regionName
+ 15  ORDER BY
+ 16  	 EXTRACT(YEAR FROM V.reportedDate),
+ 17  	 EXTRACT(MONTH FROM V.reportedDate),
+ 18  	 I.regionName;
+
+regionName	 year	   month percentage (50-59)
+---------- ---------- ---------- ------------------
+Central 	 2021	       7	      11.16
+Eastern 	 2021	       7	       12.7
+Northern	 2021	       7	      14.69
+Toronto 	 2021	       7	      10.78
+Western 	 2021	       7	       13.7
+Central 	 2021	       8	       6.91
+Eastern 	 2021	       8	       7.69
+Northern	 2021	       8	       8.91
+Toronto 	 2021	       8	       7.26
+Western 	 2021	       8	       8.02
+Central 	 2021	       9	       4.39
+
+regionName	 year	   month percentage (50-59)
+---------- ---------- ---------- ------------------
+Eastern 	 2021	       9	       4.94
+Northern	 2021	       9	       5.86
+Toronto 	 2021	       9	       4.99
+Western 	 2021	       9	       5.05
+Central 	 2021	      10		3.2
+Eastern 	 2021	      10	       3.65
+Northern	 2021	      10	       4.18
+Toronto 	 2021	      10	       3.78
+Western 	 2021	      10	       3.58
+Central 	 2021	      11	       2.32
+Eastern 	 2021	      11	       2.58
+
+regionName	 year	   month percentage (50-59)
+---------- ---------- ---------- ------------------
+Northern	 2021	      11	       2.91
+Toronto 	 2021	      11	       2.82
+Western 	 2021	      11	       2.55
+Central 	 2021	      12	       1.88
+Eastern 	 2021	      12	       2.15
+Northern	 2021	      12	       2.36
+Toronto 	 2021	      12	       2.28
+Western 	 2021	      12	       2.02
+
+30 rows selected.
+
+SQL> 
+SQL> 
+SQL> SET echo OFF
+Press enter to continue to QUERY 7...
+[K[K[?2004h[?2004l
+SQL> --------------------------------------------------------------------------------
+SQL> -- QUERY 7: Get the smallest value for each month of reported column by user
+SQL> -- input from CasesByProvince table.
+SQL> SET echo OFF
+Enter one of the following columns: confirmedPositive, resolved, deaths, totalCases, hospitalizedPatients, icuPatients to find the minimum value for each month
+ans: [Kans: [K[?2004hans: confirmedPositive[C[C[C[C[C[?2004l[KconfirmedPositive
+SQL> SELECT
+  2  	 EXTRACT(YEAR FROM C.reportedDate) AS "year",
+  3  	 EXTRACT(MONTH FROM C.reportedDate) AS "month",
+  4  	 MIN(C.&ans) AS "min(&ans)"
+  5  FROM CasesByProvince  C
+  6  GROUP BY
+  7  	 EXTRACT(YEAR FROM C.reportedDate),
+  8  	 EXTRACT(MONTH FROM C.reportedDate)
+  9  ORDER BY
+ 10  	 EXTRACT(YEAR FROM C.reportedDate),
+ 11  	 EXTRACT(MONTH FROM C.reportedDate);
+
+      year	month min(confirmedPositive)
+---------- ---------- ----------------------
+      2021	    1		       19216
+      2021	    2		       10050
+      2021	    3		       10210
+      2021	    4		       20875
+      2021	    5		       12567
+      2021	    6			2257
+      2021	    7			1334
+      2021	    8			1667
+      2021	    9			4947
+      2021	   10			2978
+      2021	   11			3093
+
+      year	month min(confirmedPositive)
+---------- ---------- ----------------------
+      2021	   12			6750
+      2022	    1		       44863
+
+13 rows selected.
+
+SQL> 
+SQL> 
+SQL> SET echo OFF
+(Press enter to continue) Updating the database:
+[K[K[?2004h[?2004l
+SQL> --------------------------------------------------------------------------------
+SQL> -- Change the name of the "reportedDate" column in each table to "dataDate".
+SQL> -- Display the first 10 rows of the table to prove it works.
+SQL> ALTER TABLE CasesByProvince RENAME COLUMN reportedDate TO dataDate;
+
+Table altered.
+
+SQL> ALTER TABLE IcuByHealthRegion RENAME COLUMN reportedDate TO dataDate;
+
+Table altered.
+
+SQL> ALTER TABLE CasesByAge RENAME COLUMN reportedDate TO dataDate;
+
+Table altered.
+
+SQL> SELECT DataDate FROM CasesByProvince WHERE rownum < 10;
+
+DATADATE
+---------
+01-JAN-21
+02-JAN-21
+03-JAN-21
+04-JAN-21
+05-JAN-21
+06-JAN-21
+07-JAN-21
+08-JAN-21
+09-JAN-21
+
+9 rows selected.
+
+SQL> 
+SQL> -- Reduce VARCHAR size for "provinceName" column of "Province" table to tighten
+SQL> -- upper size bound. Display the table after to prove it works.
+SQL> ALTER TABLE Province MODIFY provinceName VARCHAR(45);
+
+Table altered.
+
+SQL> SELECT * FROM Province;
+
+PROVINCENAME				      PR
+--------------------------------------------- --
+Alberta 				      AB
+British Columbia			      BC
+Newfoundland and Labrador		      NL
+Prince Edward Island			      PE
+Nova Scotia				      NS
+New Brunswick				      NB
+Quebec					      QC
+Ontario 				      ON
+Manitoba				      MB
+Saskatchewan				      SK
+Yukon					      YT
+
+PROVINCENAME				      PR
+--------------------------------------------- --
+Northwest Territories			      NT
+Nunavut 				      NU
+
+13 rows selected.
+
+SQL> 
+SQL> -- Drop "thirdDose" column of "VaccinationByUnitAndAge" since the third dose was
+SQL> -- not available in 2021. Display the first 10 rows of the table after to prove
+SQL> -- it works.
+SQL> ALTER TABLE VaccinationByUnitAndAge DROP COLUMN thirdDose;
+[K
+Table altered.
+
+SQL> SELECT * FROM VaccinationByUnitAndAge WHERE rownum < 10
+  2  
+SQL> -- Rename table "IdHealthUnitByRegion" to "HealthUnitIdByRegion" (and then
+SQL> -- revert the change). Display the first 10 rows of the table after each name
+SQL> -- change to prove it works.
+SQL> ALTER TABLE IdHealthUnitByRegion RENAME TO HealthUnitIdByRegion;
+
+Table altered.
+
+SQL> SELECT * FROM HealthUnitIdByRegion WHERE rownum < 10;
+
+    UNITID PR UNITNAME						 REGIONNAME
+---------- -- -------------------------------------------------- ----------
+	 1 ON Algoma District					 Northern
+	 2 ON Brant County					 Western
+	 3 ON Durham Region					 Central
+	 4 ON Grey Bruce					 Western
+	 5 ON Haldimand-Norfolk 				 Western
+	 6 ON Haliburton, Muskoka and Kawartha Lakes		 Eastern
+	 7 ON Halton Region					 Western
+	 8 ON City of Hamilton					 Western
+	 9 ON Hastings and Prince Edward			 Eastern
+
+9 rows selected.
+
+SQL> ALTER TABLE HealthUnitIdByRegion RENAME TO IdHealthUnitByRegion;
+
+Table altered.
+
+SQL> SELECT * FROM IdHealthUnitByRegion WHERE rownum < 10;
+
+    UNITID PR UNITNAME						 REGIONNAME
+---------- -- -------------------------------------------------- ----------
+	 1 ON Algoma District					 Northern
+	 2 ON Brant County					 Western
+	 3 ON Durham Region					 Central
+	 4 ON Grey Bruce					 Western
+	 5 ON Haldimand-Norfolk 				 Western
+	 6 ON Haliburton, Muskoka and Kawartha Lakes		 Eastern
+	 7 ON Halton Region					 Western
+	 8 ON City of Hamilton					 Western
+	 9 ON Hastings and Prince Edward			 Eastern
+
+9 rows selected.
+
+SQL> 
+SQL> 
+SQL> 
+SQL> 
+SQL> SET verify ON
+SQL> [KSQL> [K[?2004hSQL> @@ dropTables.sql[C[C[C[C[C[?2004l[K@@ dropTables.sql
+SQL> drop table VACCINATIONBYUNITANDAGE cascade constraints;
+[K
+Table dropped.
+
+SQL> drop table PROVINCE cascade constraints;
+[K
+Table dropped.
+
+SQL> drop table IDHEALTHUNITBYREGION cascade constraints;
+[K
+Table dropped.
+
+SQL> drop table ICUBYHEALTHREGION cascade constraints;
+[K
+Table dropped.
+
+SQL> drop table CASESBYPROVINCE cascade constraints;
+[K
+Table dropped.
+
+SQL> drop table CASESBYAGE cascade constraints;
+[K
+Table dropped.
+
+SQL> [KSQL> [K[?2004hSQL> exit[?2004l[Kexit
+Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+[?2004h]0;shinnee@charlie: ~/Desktop[01;32mshinnee@charlie[00m:[01;34m~/Desktop[00m$ exit
+[?2004lexit
+
+Script done on 2022-04-11 14:57:54-04:00 [COMMAND_EXIT_CODE="0"]
